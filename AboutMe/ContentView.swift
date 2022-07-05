@@ -21,7 +21,7 @@ struct ContentView: View {
                     .aspectRatio(contentMode: .fill)
                     .frame(width: 100, height: 100)
                 .clipShape(Circle())
-                .padding(.bottom, -300)
+                .padding(.bottom, -60)
                 .offset(y: 30)
             }
             padding(.bottom, 60)
@@ -46,7 +46,7 @@ struct ContentView: View {
             .padding(.horizontal)
             Spacer()
         }
-        .background(Color.gray)
+        .background(Color.white)
     }
 }
 
